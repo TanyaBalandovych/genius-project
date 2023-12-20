@@ -9,7 +9,7 @@
   <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">-->
 
   <!--Styles-->
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
   <header class="header">
@@ -103,6 +103,7 @@
             <ul class="formats-list">
               <li class="formats-item">
                 <article class="format-card">
+                  <img class="format-image" src="./images/walrus-format.jpg" alt="Walrus format">
                   <h3 class="formats-title" lang="en">Walrus</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -114,6 +115,7 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
+                  <img class="format-image" src="./images/horseshoe-format.jpg" alt="Horseshoe format">
                   <h3 class="formats-title" lang="en">Horseshoe</h3>
                   <div class="format-text">
                     <p>Площа: до 25 м2</p>
@@ -125,6 +127,7 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
+                  <img class="format-image" src="./images/handlebar-format.jpg" alt="Handlebar format">
                   <h3 class="formats-title" lang="en">Handlebar</h3>
                   <div class="format-text">
                     <p>Площа: до 15 м2</p>
@@ -246,7 +249,7 @@
       <button class="modal-btn-close" type="buttom">Close</button>
       <h2>Замовити дзвінок</h2>
       <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-      <form name="modal-form" autocomplete="off" novalidate>
+      <form name="modal-form" autocomplete="off">
         <div class="form-field">
           <label class="form-label visually-hidden" for="user-name">Ім'я</label>
           <input 
@@ -255,6 +258,7 @@
           name="use-name" 
           id="use-name" 
           placeholder="Ім'я"
+          required
           />
         </div>
 
@@ -266,6 +270,7 @@
           name="user-tel" 
           id="user-tel" 
           placeholder="Телефон"
+          required
           />
         </div>
 
@@ -277,6 +282,7 @@
           name="user-email" 
           id="user-email" 
           placeholder="Електронна пошта"
+          required
           />
         </div>
 
