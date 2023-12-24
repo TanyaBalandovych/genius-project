@@ -7,16 +7,12 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-}
 
-.hero-title {
+  &__title {
   margin-bottom: 0;
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
-}
-
-.hero-title .accent {
-  color: var(--color-brand-normal);
+  }
 }
