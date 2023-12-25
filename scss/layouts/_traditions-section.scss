@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+<<<<<<< HEAD
   }
 
   &__content {
@@ -18,7 +19,30 @@
   &__text{
     &--limited {
       max-width: 340px;
+=======
+    }
+
+  &__content {
+    max-width: 710px;
+    }
+    
+  &__title {
+    margin-bottom: 42px;
+    }  
+
+  &__text {
+    --limited {
+    max-width: 340px;
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
     }
   }
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424

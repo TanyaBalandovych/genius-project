@@ -4,14 +4,21 @@
   left: 0;
   bottom: 0;
   right: 0;
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
   background-color: rgb(0, 0, 0, 0.5);
   padding: 20px 0;
   transition: opacity .3s, visibility .3s;
 
+<<<<<<< HEAD
   &__is-hidden {
+=======
+  &.is-hidden {
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -33,7 +40,11 @@
     position: absolute;
     top: 40px;
     right: 40px;
+<<<<<<< HEAD
   }
+=======
+  }  
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 
   &__form-field {
     margin-bottom: 32px;
@@ -45,4 +56,7 @@
   }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424

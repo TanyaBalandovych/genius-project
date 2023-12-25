@@ -5,12 +5,18 @@
 @import './utils/utils';
 @import './utils/mixins';
 
+<<<<<<< HEAD
 
 @import './components/buttons';
+=======
+@import './components/buttons';
+@import './components/carousel-button';
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 @import './components/chef-card';
 @import './components/format-card';
 @import './components/input';
 @import './components/links';
+<<<<<<< HEAD
 
 @import './layouts/advantages-section';
 @import './layouts/chefs-section';
@@ -26,15 +32,23 @@
 
 
 
+=======
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 
-.container {
-  width: 100%;
-  max-width: 1288px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
+@import './layouts/section';
+@import './layouts/advantages-section';
+@import './layouts/chefs-section';
+@import './layouts/contact-section';
+@import './layouts/container';
+@import './layouts/form-terms';
+@import './layouts/formats-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/traditions-section';
 
 
+<<<<<<< HEAD
 /*Carousel */
 
 .carousel-button {
@@ -60,6 +74,17 @@
 .carousel-button.next {
   transform: rotate(180deg);
 }
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 /*Footer*/
 
 .footer {
@@ -139,3 +164,9 @@
 .address-icon:hover {
   fill: var(--color-brand-normal);
 }
+<<<<<<< HEAD
+=======
+
+/*Modal*/
+
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424

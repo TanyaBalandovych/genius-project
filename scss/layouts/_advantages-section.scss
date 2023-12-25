@@ -3,6 +3,7 @@
   padding: 16px 0px;
 
   &__list {
+<<<<<<< HEAD
     justify-content: space-evenly;
     gap: 40px;
     display: flex;
@@ -20,3 +21,17 @@
 
 
 
+=======
+  justify-content: space-evenly;
+  gap: 40px;
+  display: flex;
+  }
+  
+  &__item {
+  color: var(--color-primary-light);
+  font-weight: 20px;
+  font-weight: 300;
+  }
+}
+
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424

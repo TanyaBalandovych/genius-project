@@ -1,16 +1,30 @@
+<<<<<<< HEAD
 .chefs-section {
+=======
+.chef-section {
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
   &__title {
     position: relative;
     margin: 0 auto 80px;
 
+<<<<<<< HEAD
     &::after,
     &::before {
+=======
+    &::before,
+    &::after {
+      display: none;
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
       position: absolute;
       bottom: 24px;
       width: 352px;
       border: 2px solid var(--color-brand-light);
       content: "";
     }
+<<<<<<< HEAD
+=======
+  }  
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 
     &::before {
       left: 0;
@@ -19,6 +33,7 @@
     &::after {
       right: 0;
     }
+<<<<<<< HEAD
   }
 
   &__list {
@@ -36,3 +51,24 @@
 
 
 
+=======
+
+  &__list {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    gap: 40px 30px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
+  
+  &__item {
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
+}
+
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424

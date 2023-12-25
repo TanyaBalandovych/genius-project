@@ -1,6 +1,9 @@
 .input {
   position: relative;
+<<<<<<< HEAD
   margin-bottom: 24px;
+=======
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
 
   &__label {
     position: absolute;
@@ -9,7 +12,11 @@
   }
 
   &__control {
+<<<<<<< HEAD
     padding: 16px 42px;
+=======
+    padding: 8px 24px;
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
     width: 100%;
     font-size: 16px;
     line-height: 1.17;
@@ -17,7 +24,11 @@
     border-radius: 8px;
     background-color: transparent;
 
+<<<<<<< HEAD
     &__focus {
+=======
+    &:focus {
+>>>>>>> c379fb90a55ce8b20ff678d092cbb64830b39424
       border-color: var(--color-brand-normal);
       outline: none;
     }
