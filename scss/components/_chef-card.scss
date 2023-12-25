@@ -1,27 +1,24 @@
 .chef-card {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 30px;
 
   &__photo {
-    width: 140px;
-    border-radius: 2px 2px 2px 116px;
-    box-shadow: -8px 8px 0 0 var(--color-primary-light), -8px 8px 0 2px var(--color-secondary-dark);
+    border-radius: 4px 4px 4px 200px;
+    box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
   }
-}
 
-.chef-card .title {
+  &__title {
     margin-bottom: 16px;
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 600;
-}
+  }
 
-.chef-card .text {
-  font-size: 14px;
-  margin-bottom: 24px;
+  &__text {
+    margin-bottom: 24px;
 
-  &:last-child {
-    margin-bottom: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
-
